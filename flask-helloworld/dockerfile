@@ -1,0 +1,7 @@
+#Base image
+FROM python:3-onbuild
+#Port number to be exposed
+EXPOSE 5000
+#Run the app
+#ENTRYPOINT ["python"]
+CMD ["python", "./helloworld.py"]
